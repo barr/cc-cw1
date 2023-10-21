@@ -17,7 +17,4 @@
       ]
     }
   },
-  "remoteEnv": {
-    "PATH": "$PATH:/workspaces/codespaces-jupyter/tree-sitter-YOUR_LANGUAGE_NAME/node_modules/.bin"
-  }
 }
