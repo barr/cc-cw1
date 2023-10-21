@@ -5,7 +5,7 @@
   },
   "waitFor": "onCreateCommand",
   "updateContentCommand": "python3 -m pip install -r requirements.txt",
-  "postCreateCommand": "export PATH=$PATH:./node_modules/.bin",
+  "postCreateCommand": "",
   "customizations": {
     "codespaces": {
       "openFiles": []
@@ -16,5 +16,8 @@
         "ms-python.python"
       ]
     }
+  },
+  "remoteEnv": {
+    "PATH": "$PATH:/workspaces/codespaces-jupyter/tree-sitter-YOUR_LANGUAGE_NAME/node_modules/.bin"
   }
 }
