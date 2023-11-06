@@ -4,17 +4,17 @@
     "cpus": 4
   },
   "waitFor": "onCreateCommand",
+  "onCreateCommand": ".devcontainer/onCreate.sh",
   "updateContentCommand": "python3 -m pip install -r requirements.txt",
-  "postCreateCommand": "",
   "customizations": {
     "codespaces": {
       "openFiles": []
     },
-    "vscode": {
+    "vscode": { 
       "extensions": [
         "ms-toolsai.jupyter",
         "ms-python.python"
       ]
     }
-  },
+  }
 }
